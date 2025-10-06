@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.almoststable.wandering",
+      "sha256_cert_fingerprints": [
+        "13:3A:20:4C:E8:2A:2B:AE:82:8E:F9:A6:64:C4:C7:34:82:93:0E:36:9E:12:B1:9A:6A:F6:A1:B9:AF:80:2A:1D"
+      ]
+    }
+  }
+]

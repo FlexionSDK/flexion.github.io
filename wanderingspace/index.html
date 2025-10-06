@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Install Our Game - Wandering Space</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Create a space background with gradients for stars and nebula effects */
+            background-color: #0c0a1a;
+            background-image: 
+                /* Nebula/Galaxy effect */
+                radial-gradient(ellipse at 70% 30%, rgba(80, 50, 150, 0.3), transparent 50%),
+                radial-gradient(ellipse at 20% 80%, rgba(50, 100, 150, 0.2), transparent 50%),
+                
+                /* Star layers */
+                radial-gradient(circle at 10% 20%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 1px, transparent 1.1px),
+                radial-gradient(circle at 50% 30%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 1px, transparent 1.1px),
+                radial-gradient(circle at 80% 10%, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 1.5px, transparent 1.6px),
+                radial-gradient(circle at 30% 80%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 1px, transparent 1.1px),
+                radial-gradient(circle at 90% 60%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 2px, transparent 2.1px),
+                radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 1px, transparent 1.1px),
+                radial-gradient(circle at 65% 75%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 1.5px, transparent 1.6px);
+            
+            /* Define different sizes for the star layers to create a parallax illusion */
+            background-size: 
+                100% 100%, 100% 100%, 
+                200px 200px, 300px 300px, 150px 150px, 250px 250px, 350px 350px, 180px 180px, 220px 220px;
+            
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body class="text-white antialiased">
+
+    <!-- Main Layout Container -->
+    <div class="container mx-auto px-4 sm:px-6 py-12 flex flex-col lg:flex-row lg:items-center lg:justify-center min-h-screen w-full lg:space-x-8">
+
+        <!-- Left Ad Column -->
+        <aside class="w-full max-w-sm mx-auto lg:max-w-none lg:w-64 mb-8 lg:mb-0">
+            <div class="bg-gray-900/60 backdrop-blur-sm border border-white/10 rounded-2xl shadow-lg p-6 text-center h-[550px] flex flex-col justify-around">
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Monopoly Tycoon</h3>
+                    <p class="text-gray-400 text-sm mb-4">Build your empire. Crush the competition.</p>
+                </div>
+                <img src="ws-ad4.png" alt="Game Banner" class="rounded-xl shadow-md mx-auto my-4">
+                <a href="#" class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-full text-sm transition-transform duration-300 hover:scale-105">
+                    Check It Out
+                </a>
+            </div>
+        </aside>
+
+        <!-- Center Content Column -->
+        <main class="w-full max-w-4xl flex-shrink-0 order-first lg:order-none">
+            <div class="flex flex-col items-center text-center">
+
+                <!-- Game Logo -->
+                <div class="mb-8">
+                    <img src="ws-logo.png" alt="Game Logo" class="w-32 h-32 rounded-3xl shadow-lg">
+                </div>
+
+                <!-- Main Heading -->
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">You're Almost There!</h1>
+                <p class="text-lg text-gray-300 mb-8 max-w-2xl">It looks like "Wandering Space" isn't installed on your device yet. Follow the simple steps below to join the fun.</p>
+
+                <!-- Main Content: Screenshot and Instructions -->
+                <div class="w-full bg-gray-900/60 backdrop-blur-sm border border-white/10 rounded-2xl shadow-2xl overflow-hidden md:flex md:items-center">
+                    <!-- Left Side: Screenshot/Visual -->
+                    <div class="md:w-1/2 p-6">
+                        <img src="ws-ss.png" alt="Game Screenshot" class="rounded-xl shadow-md w-full">
+                    </div>
+
+                    <!-- Right Side: Installation Steps -->
+                    <div class="md:w-1/2 p-6 md:p-8">
+                        <h2 class="text-2xl font-semibold mb-4 text-left">How to Install</h2>
+                        <div class="space-y-4 text-left">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 w-8 h-8 bg-indigo-600 rounded-full flex items-center justify-center mr-4">
+                                    <span class="font-bold text-white">1</span>
+                                </div>
+                                <p class="text-gray-200 pt-1">Tap the "Install from Flexion Store" button below.</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 w-8 h-8 bg-indigo-600 rounded-full flex items-center justify-center mr-4">
+                                    <span class="font-bold text-white">2</span>
+                                </div>
+                                <p class="text-gray-200 pt-1">You'll be taken to the store page for our game.</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 w-8 h-8 bg-indigo-600 rounded-full flex items-center justify-center mr-4">
+                                    <span class="font-bold text-white">3</span>
+                                </div>
+                                <p class="text-gray-200 pt-1">Tap the "Install" button on the store page to download.</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 w-8 h-8 bg-indigo-600 rounded-full flex items-center justify-center mr-4">
+                                    <span class="font-bold text-white">4</span>
+                                </div>
+                                <p class="text-gray-200 pt-1">Once installed, open the game and enjoy!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call to Action Button -->
+                <div class="mt-12">
+                    <!-- IMPORTANT: Replace "#" with your actual store URL -->
+                    <a href="#" id="install-button" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-lg py-4 px-10 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-105">
+                        Install from Flexion Store
+                    </a>
+                </div>
+                
+                <!-- Footer -->
+                <footer class="mt-16 text-gray-500 text-sm">
+                    <p>&copy; 2025 Flexion Mobile Ltd. All rights reserved.</p>
+                </footer>
+            </div>
+        </main>
+
+        <!-- Right Ad Column -->
+        <aside class="w-full max-w-sm mx-auto lg:max-w-none lg:w-64 mt-8 lg:mt-0">
+            <div class="bg-gray-900/60 backdrop-blur-sm border border-white/10 rounded-2xl shadow-lg p-6 text-center h-[550px] flex flex-col justify-around">
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Cyber Punks</h3>
+                    <p class="text-gray-400 text-sm mb-4">Explore a futuristic city and fight for survival in a high-tech world.</p>
+                </div>
+                <img src="ws-ad2.png" alt="Game Banner" class="rounded-xl shadow-md mx-auto my-4">
+                <a href="#" class="inline-block bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-6 rounded-full text-sm transition-transform duration-300 hover:scale-105">
+                    Check It Out
+                </a>
+            </div>
+        </aside>
+
+    </div>
+
+    <script>
+        // Optional: A little bounce effect on the button to draw attention
+        const installButton = document.getElementById('install-button');
+        if (installButton) {
+            installButton.classList.add('animate-bounce');
+            setTimeout(() => {
+                installButton.classList.remove('animate-bounce');
+            }, 2000); // Stop bouncing after 2 seconds
+        }
+    </script>
+</body>
+</html>
+
